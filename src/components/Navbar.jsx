@@ -71,7 +71,7 @@ const Navbar = () => {
           {/* Logo - CA */}
           <div className="flex items-center space-x-3">
             <div className="w-30 h-30 " >
-                  <img src="/public/Frame_1.gif" alt="img" />
+                  <img src="/public/frame_1.gif" alt="img" />
             </div>
            
           </div>
@@ -113,7 +113,7 @@ const Navbar = () => {
                 className="flex items-center space-x-3 p-2 rounded-lg hover:bg-purple-500/10 transition-all duration-300"
               >
                 <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-purple-700 rounded-full flex items-center justify-center border-2 border-purple-400/50">
-                  <span className="text-white font-semibold">AF</span>
+               <span  > <img className=' rounded-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/JimParsons-byPhilipRomano.jpg/250px-JimParsons-byPhilipRomano.jpg" alt="" /></span>
                 </div>
               </button>
 

@@ -39,7 +39,7 @@ const HeroSection = () => {
          <span className="block mt-2">
             {/* GIF Replacement for "Your Growth" */}
             <img 
-              src="/public/Frame1229.gif" 
+             src='frame 1229.gif' 
               alt="Your Growth"
               className=" w-auto inline-block"
               onError={(e) => {

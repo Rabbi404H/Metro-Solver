@@ -81,7 +81,7 @@ const ContactFAQSection = () => {
             {/* Logo */}
             <div className="flex items-center space-x-3 mb-8">
               <div className="w-25 h-25">
-                  <img src="/public/Frame.gif" alt="img" />
+                  <img src="/public/frame.gif" alt="img" />
               </div>
             </div>
 

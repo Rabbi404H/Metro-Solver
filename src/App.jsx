@@ -25,8 +25,7 @@ function HomePage() {
       <WhyChooseSection/>
       <WhyChooseStudioSection/>
       <StoriesAndPodcastSection/>
-      <ContactFAQSection/>   
-      <ContactFAQSection/> 
+      <ContactFAQSection/>    
       <FooterSection/>
     </div>
   );
