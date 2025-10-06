@@ -14,7 +14,7 @@ import FooterSection from './section/FooterSection.jsx';
 // Dummy components for routing
 function HomePage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen max-w-screen overflow-x-hidden px-4 sm:px-6 md:px-8 bg-black text-white">
       <Navbar />
       <HeroSection />
       <ClientLogos />
