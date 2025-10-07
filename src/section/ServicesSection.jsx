@@ -63,16 +63,6 @@ const ServicesSection = () => {
             </div>
           ))}
         </div>
-
-        {/* Latest Works Section */}
-        <div className="mt-20 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Our Latest Works
-          </h2>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            A showcase of our recent projects and collaborations that helped businesses grow digitally.
-          </p>
-        </div>
       </div>
     </section>
   );

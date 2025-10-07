@@ -1,6 +1,3 @@
-
-import React from 'react';
-
 const HeroSection = () => {
   const stats = [
     { number: '15+', label: 'Years Experience' },
@@ -12,17 +9,8 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
        {/* Background Video */}
       <div className="text-left absolute inset-0 z-0">
-        <video
-          autoPlay
-          muted
-          loop
-          className="w-full h-full object-cover"
-          poster="/assets/fallback-poster.jpg"
-        >
-          <source src="/public/v.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="absolute inset-0 bg-black/60"></div>
+        
+        <img src="\Comp_1_4.gif" alt="404" />
       </div>
       {/* Background Effects */}
       <div className="absolute inset-0">
@@ -39,7 +27,7 @@ const HeroSection = () => {
          <span className="block mt-2">
             {/* GIF Replacement for "Your Growth" */}
             <img 
-             src='frame 1229.gif' 
+             src='/frame_1229.gif' 
               alt="Your Growth"
               className=" w-auto inline-block"
               onError={(e) => {

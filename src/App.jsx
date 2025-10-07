@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import HeroSection from './section/HeroSection.jsx';
 import ClientLogos from './components/ClientLogos';
@@ -10,8 +11,8 @@ import WhyChooseStudioSection from './section/WhyChooseStudioSection.jsx';
 import StoriesAndPodcastSection from './section/StoriesAndPodcastSection.jsx';
 import ContactFAQSection from './section/ContactFAQSection.jsx';
 import FooterSection from './section/FooterSection.jsx';
+import About from './pages/About.jsx';
 
-// Dummy components for routing
 function HomePage() {
   return (
     <div className="min-h-screen max-w-screen overflow-x-hidden px-4 sm:px-6 md:px-8 bg-black text-white">
@@ -20,16 +21,26 @@ function HomePage() {
       <ClientLogos />
       <PromotionalBanner />
       <ChatBot />
-      <ServicesSection/>
-      <LatestWorksSection/>
-      <WhyChooseSection/>
-      <WhyChooseStudioSection/>
-      <StoriesAndPodcastSection/>
-      <ContactFAQSection/>    
-      <FooterSection/>
+      <ServicesSection />
+      <LatestWorksSection />
+      <WhyChooseSection />
+      <WhyChooseStudioSection />
+      <StoriesAndPodcastSection />
+      <ContactFAQSection />
+      <FooterSection />
     </div>
   );
 }
 
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
+}
 
-export default HomePage
+export default App;
