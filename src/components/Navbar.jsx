@@ -67,7 +67,7 @@ const Navbar = () => {
               onClick={() => navigateTo("/")} 
               className="w-32 h-30 focus:outline-none"
             >
-              <img src="/public/frame_1.gif" alt="Logo" />
+              <img src="/frame_1.gif" alt="Logo" />
             </button>
           </div>
 
