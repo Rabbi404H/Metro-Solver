@@ -13,7 +13,7 @@ import ContactFAQSection from './section/ContactFAQSection.jsx';
 import FooterSection from './section/FooterSection.jsx';
 import About from './pages/About.jsx';
 
-function HomePage() {
+function Home() {
   return (
     <div className="min-h-screen max-w-screen overflow-x-hidden px-4 sm:px-6 md:px-8 bg-black text-white">
       <Navbar />
