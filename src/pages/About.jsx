@@ -59,10 +59,9 @@ const About = () => {
 
             {/* Right Content - Image/Illustration */}
             <div className="relative">
-              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl p-8 border border-purple-500/30">
-                <div className="bg-gray-800 rounded-xl h-80 flex items-center justify-center">
-                  <span className="text-gray-400 text-lg">Company Image/Illustration</span>
-                </div>
+              <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl border">
+                  <img className=' rounded-2xl border relative object-fill h-[57vh] w-[70vh]' src="https://th.bing.com/th/id/R.0c91b6a2f5b1277570285c55f4cff17a?rik=irmWX8GQnXJP0w&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fmeeting-hd-png-business-people-clapping-after-meeting-with-manager-in-conference-room-stock-video-footage-videoblocks-1920.png&ehk=tGKBAckrgLlhbdBt8on6uiz%2fOOcQEUuY%2b8PgiPNLr2w%3d&risl=&pid=ImgRaw&r=0" alt="image" />
+                
               </div>
             </div>
           </div>
@@ -110,9 +109,10 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
             <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 p-1">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 p-1" >
+                
                 <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
-                  <span className="text-white text-xl font-bold">AF</span>
+                 <img className='w-full h-full rounded-full' src="https://media.licdn.com/dms/image/C4E03AQH9J1CnCl9GoA/profile-displayphoto-shrink_800_800/0/1581696902021?e=2147483647&v=beta&t=s9pbwh6B7Ju8As9HqaUwjxbFBVdGj4xAAJr968d8PH4" alt="" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-white">Albert Flores</h3>
@@ -126,7 +126,8 @@ const About = () => {
             <div className="text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 p-1">
                 <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
-                  <span className="text-white text-xl font-bold">JD</span>
+                   <img className='w-full h-full rounded-full' src="https://media.licdn.com/dms/image/C4E03AQH9J1CnCl9GoA/profile-displayphoto-shrink_800_800/0/1581696902021?e=2147483647&v=beta&t=s9pbwh6B7Ju8As9HqaUwjxbFBVdGj4xAAJr968d8PH4" alt="" />
+                  
                 </div>
               </div>
               <h3 className="text-xl font-bold text-white">Jane Doe</h3>
@@ -140,7 +141,7 @@ const About = () => {
             <div className="text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 p-1">
                 <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
-                  <span className="text-white text-xl font-bold">MS</span>
+                  <img className='w-full h-full rounded-full' src="https://media.licdn.com/dms/image/C4E03AQH9J1CnCl9GoA/profile-displayphoto-shrink_800_800/0/1581696902021?e=2147483647&v=beta&t=s9pbwh6B7Ju8As9HqaUwjxbFBVdGj4xAAJr968d8PH4" alt="" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-white">Mike Smith</h3>
