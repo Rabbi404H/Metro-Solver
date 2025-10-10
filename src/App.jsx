@@ -37,7 +37,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/pages/about.jsx" element={<About />} />
       </Routes>
     </Router>
   );
