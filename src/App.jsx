@@ -12,11 +12,13 @@ import StoriesAndPodcastSection from './section/StoriesAndPodcastSection.jsx';
 import ContactFAQSection from './section/ContactFAQSection.jsx';
 import FooterSection from './section/FooterSection.jsx';
 import About from './pages/About.jsx';
+import TopBar from './components/TopBar.jsx';
 
 function Home() {
   return (
     <div className="min-h-screen max-w-screen overflow-x-hidden px-4 sm:px-6 md:px-8 bg-black text-white">
       <Navbar />
+      <TopBar/>
       <HeroSection />
       <ClientLogos />
       <PromotionalBanner />
