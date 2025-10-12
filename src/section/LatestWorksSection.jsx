@@ -10,7 +10,7 @@ const LatestWorksSection = () => {
         subtitle: "Real-time analytics with interactive charts",
         category: "Web App",
         accent: "purple",
-        image: "https://images.unsplash.it/400/180?random=101&gravity=center"
+        image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 2,
@@ -18,15 +18,14 @@ const LatestWorksSection = () => {
         subtitle: "Fitness tracking with AI insights",
         category: "Mobile App",
         accent: "green",
-        image: "https://images.unsplash.it/400/180?random=102&gravity=center"
-      },
+        image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"      },
       {
         id: 3,
         title: "MusicFlow Player",
         subtitle: "Streaming service with social features",
         category: "Web App",
         accent: "orange",
-        image: "https://images.unsplash.it/400/180?random=103&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 4,
@@ -34,7 +33,7 @@ const LatestWorksSection = () => {
         subtitle: "Team collaboration productivity suite",
         category: "SaaS",
         accent: "purple",
-        image: "https://images.unsplash.it/400/180?random=104&gravity=center"
+        image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       }
     ],
     row2: [
@@ -44,7 +43,7 @@ const LatestWorksSection = () => {
         subtitle: "Digital art marketplace with blockchain integration and 3D previews for collectors and creators",
         category: "Blockchain",
         accent: "green",
-        image: "https://images.unsplash.it/500/220?random=105&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 6,
@@ -52,7 +51,7 @@ const LatestWorksSection = () => {
         subtitle: "Comprehensive agency management system with client portals and project tracking",
         category: "Web Platform",
         accent: "orange",
-        image: "https://images.unsplash.it/500/220?random=106&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 7,
@@ -60,7 +59,7 @@ const LatestWorksSection = () => {
         subtitle: "Advanced cryptocurrency dashboard with real-time market data and trading insights",
         category: "FinTech",
         accent: "purple",
-        image: "https://images.unsplash.it/500/220?random=107&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       }
     ],
     row3: [
@@ -70,7 +69,7 @@ const LatestWorksSection = () => {
         subtitle: "Modern e-commerce with AR preview",
         category: "E-Commerce",
         accent: "green",
-        image: "https://images.unsplash.it/400/180?random=108&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 9,
@@ -78,7 +77,7 @@ const LatestWorksSection = () => {
         subtitle: "Vehicle booking with live tracking",
         category: "Mobile App",
         accent: "orange",
-        image: "https://images.unsplash.it/400/180?random=109&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 10,
@@ -86,7 +85,7 @@ const LatestWorksSection = () => {
         subtitle: "Design system component library",
         category: "Design System",
         accent: "purple",
-        image: "https://images.unsplash.it/400/180?random=110&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       },
       {
         id: 11,
@@ -94,7 +93,7 @@ const LatestWorksSection = () => {
         subtitle: "Smart productivity companion",
         category: "AI/ML",
         accent: "green",
-        image: "https://images.unsplash.it/400/180?random=111&gravity=center"
+         image: "https://tse4.mm.bing.net/th/id/OIP.hi7mfWlLmayF6bZ1d2UsEQHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
       }
     ]
   };

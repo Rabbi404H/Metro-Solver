@@ -47,8 +47,8 @@ const AboutPage = () => {
       <Navbar/>
       <TopBarAbout/>
 
- <section className="relative py-20 px-6 overflow-hidden">
-  <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-blue-500/10 blur-3xl"></div>
+ <section className="relative  top-50 py-20 px-6 overflow-hidden">
+  <div className="absolute  inset-0 bg-gradient-to-r from-purple-500/10 to-blue-500/10 blur-3xl"></div>
   <div className="container mx-auto relative z-10">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       {/* Left Content */}
