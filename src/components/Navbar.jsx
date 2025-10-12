@@ -6,9 +6,9 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About us", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "White label", href: "/white-label" },
-    { name: "Contact us", href: "/contact" },
+    { name: "Services", href: "#" },
+    { name: "White label", href: "#" },
+    { name: "Contact us", href: "#" },
   ];
 
   const navigateTo = (path) => {
